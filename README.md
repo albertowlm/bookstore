@@ -7,6 +7,19 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Project Setup Steps
+
+1. Create a `.env` file.
+2. Run `composer install`.
+3. Execute `vendor/bin/sail build`.
+4. Start the application with `vendor/bin/sail up`.
+5. Run database migrations with `vendor/bin/sail artisan migrate`.
+6. Seed the database with `vendor/bin/sail artisan db:seed`.
+7. Access the front-end at [http://localhost/](http://localhost/).
+
+## Execute Tests
+`vendor/bin/sail test` 
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
@@ -64,16 +77,3 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-
-## Project Setup Steps
-
-1. Create a `.env` file.
-2. Run `composer install`.
-3. Execute `vendor/bin/sail build`.
-4. Start the application with `vendor/bin/sail up`.
-5. Run database migrations with `vendor/bin/sail artisan migrate`.
-6. Seed the database with `vendor/bin/sail artisan db:seed`.
-7. Access the front-end at [http://localhost/](http://localhost/).
-
-## Execute Tests
-`vendor/bin/sail test` 

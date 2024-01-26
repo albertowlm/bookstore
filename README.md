@@ -9,7 +9,7 @@
 
 ## Project Setup Steps
 
-1. Ensure your computer has PHP version 8.1 installed with curl and xml.
+1. Ensure your computer has PHP version 8.1 or greater version installed with curl and xml and Docker Compose v2.2 or greater version.
 2. Install Composer, if not already installed.
 3. Create a `.env` file.
    `DB_USERNAME=sail`

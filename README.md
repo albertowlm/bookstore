@@ -9,13 +9,17 @@
 
 ## Project Setup Steps
 
-1. Create a `.env` file.
-2. Run `composer install`.
-3. Execute `vendor/bin/sail build`.
-4. Start the application with `vendor/bin/sail up`.
-5. Run database migrations with `vendor/bin/sail artisan migrate`.
-6. Seed the database with `vendor/bin/sail artisan db:seed`.
-7. Access the front-end at [http://localhost/](http://localhost/).
+1. Ensure your computer has PHP version 8.1 installed with curl and xml.
+2. Install Composer, if not already installed.
+3. Create a `.env` file.
+   `DB_USERNAME=sail`
+   `DB_PASSWORD=password`
+4. Run `composer install`.
+5. Execute `vendor/bin/sail build`.
+6. Start the application with `vendor/bin/sail up`.
+7. Run database migrations with `vendor/bin/sail artisan migrate`.
+8. Seed the database with `vendor/bin/sail artisan db:seed`.
+9. Access the front-end at [http://localhost/](http://localhost/).
 
 ## Execute Tests
 `vendor/bin/sail test` 

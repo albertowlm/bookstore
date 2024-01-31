@@ -17,9 +17,10 @@
 4. Run `composer install`.
 5. Execute `vendor/bin/sail build`.
 6. Start the application with `vendor/bin/sail up`.
-7. Run database migrations with `vendor/bin/sail artisan migrate`.
-8. Seed the database with `vendor/bin/sail artisan db:seed`.
-9. Access the front-end at [http://localhost/](http://localhost/).
+7. Generate application key with `vendor/bin/sail artisan key:generate`.
+8. Run database migrations with `vendor/bin/sail artisan migrate`.
+9. Seed the database with `vendor/bin/sail artisan db:seed`.
+10. Access the front-end at [http://localhost/](http://localhost/).
 
 ## Execute Tests
 `vendor/bin/sail test` 
